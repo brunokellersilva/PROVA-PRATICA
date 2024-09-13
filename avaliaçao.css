@@ -107,7 +107,7 @@ header div ul li a:hover {
 }
 
 footer {
-  background-color: chartreuse;
+  background-color: rgb(143, 22, 22);
   justify-content: center;
   display: flex;
   padding: 40px;
@@ -125,13 +125,209 @@ footer div ul li {
 }
 
 footer div ul li a {
-  
+  text-decoration: none;
+  font-weight: 200;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: azure;
 
 }
 
+footer div ul li a:hover {
+  transition: 0,7s;
+  color: rgb(179, 23, 69);
+}
 
+header i {
+  border-color: gray;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 10px;
+  color: chocolate;
 
+}
 
+header i:hover {
+  border-color: chartreuse;
+  transition: 0.8s;
+
+}
+
+.sessao-tela2 {
+  background-image: url(imagenss/barber-shop-7226341_640.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px;
+
+}
+
+.sessao-02 p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(115, 115, 126);
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(175, 31, 12);
+
+}
+
+.sessao-tela2 span {
+  font-weight: bold;
+  color: gold;
+
+}
+
+.sessao-nova {
+  background: rgb(102, 21, 21);
+  padding: 100px;
+
+}
+
+.div-pai {
+  justify-content: center;
+  margin-bottom: 15px;
+  display: flex;
+
+}
+
+.div-pai div {
+  background-image: url(imagenss/barber-shop-7226341_640.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  height: 250px;
+  width: 200px;
+
+}
+
+.div-pai2 {
+  justify-content: center;
+  display: flex;
+
+}
+
+.div-pai2 div {
+  background-color: rgb(11, 115, 184);
+  margin-right: 15px;
+  height: 200px;
+  width: 150px;
+  
+}
+
+.div-pai .div-filho1 {
+  background-image: url(imagenss/barber-5978819_640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.div-filho1:hover {
+  background-image: url(imagenss/barber-1007902_640.jpg);
+  border-radius: 20px;
+  transition: 0.9s;
+  height: 250px;
+  width: 190px;
+
+}
+
+.div-pai .div-filho2 {
+  background-image: url(imagenss/barber-5978819_640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.div-filho2:hover {
+  background-image: url(imagenss/pexels-thgusstavo-2040189.jpg);
+  border-radius: 20px;
+  transition: 0.9s;
+  height: 250px;
+  width: 190px;
+}
+
+.div-pai .div-filho3 {
+  background-image: url(imagenss/barber-5978819_640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.div-filho3:hover {
+  background-image: url(imagenss/barber-8254067_640.jpg);
+  border-radius: 20px;
+  transition: 0.9s;
+  height: 250px;
+  width: 190px;
+
+}
+
+.div-pai2 .div-filho4 {
+  background-image: url(imagenss/barber-5978819_640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.div-filho4:hover {
+  background-image: url(imagenss/pexels-photo-2881253.jpeg);
+  border-radius: 20px;
+  transition: 0.9s;
+  height: 250px;
+  width: 190px;
+
+}
+
+.div-pai2 .div-filho5 {
+  background-image: url(imagenss/barber-5978819_640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.div-filho5:hover {
+  background-image: url(imagenss/side-view-positive-young-bearded-600nw-2208393461.webp);
+  border-radius: 20px;
+  transition: 0.9s;
+  height: 250px;
+  width: 190px;
+
+}
+
+.div-pai2 .div-filho6 {
+  background-image: url(imagenss/barber-5978819_640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.div-filho6:hover {
+  background-image: url(imagenss/barber-5428008_640.jpg);
+  border-radius: 20px;
+  transition: 0.9s;
+  height: 250px;
+  width: 190px;
+
+}
+
+.sessao-atual {
+  padding: 200;
+  background-color: rgb(85, 20, 36);
+  justify-content: space-evenly;
+  display: flex;
+
+}
+
+.div-titulo h2 {
+  font-size:25px ;
+  margin: 20px;
+  color: bisque;
+}
 
 
 
