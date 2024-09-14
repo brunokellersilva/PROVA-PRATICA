@@ -47,15 +47,16 @@ header div ul li a:hover {
   background-color: blue;
   justify-content: center;
   align-items: center;
-  padding: 450;
+  padding: 400px;
   display: flex;
-
-  background-image: url(imagenss/barbershop-4762345_640.jpg);
+background-image: url(imagenss/barbershop-4762345_640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 300px;
 }
+ /* tag para estilização do botão (SAIBA MAIS)
+- aqui fazemos o caminho exato de
+onde se encontra o botão */
 
 .sessao-01 button {
   width:160px ;
@@ -77,7 +78,7 @@ header div ul li a:hover {
   background-color: rgb(173, 164, 166);
   display: flex;
   padding: 200px;
-
+  
 }
 
 .sessao-02 p {
@@ -97,12 +98,13 @@ header div ul li a:hover {
 }
 
 .sessao-03 {
-  background-image: url(imagenss/barbershop-4484300_640.jpg);
+  background-image: url(imagenss/barber-shop-7226341_640.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center ;
-  padding: 400px;
+  padding: 300px;
+  
 
 }
 
@@ -111,7 +113,7 @@ footer {
   justify-content: center;
   display: flex;
   padding: 40px;
-
+display:flex;
 }
 
 footer div ul {
@@ -327,7 +329,47 @@ header i:hover {
   font-size:25px ;
   margin: 20px;
   color: bisque;
+
 }
+
+.div-titulo p {
+  color: navy;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.div-iframe iframe {
+  border-radius: 15px;
+  margin-right: 35px;
+
+}
+
+.sessao-atual {
+  background-color: rgb(145, 8, 8);
+  display: flex;
+  padding:200px ;
+
+}
+
+.rodape {
+  background-color: darkorange;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+  display: flex;
+
+}
+
+.div-line img {
+  width:100px ;
+
+}
+
+
+
+
 
 
 
